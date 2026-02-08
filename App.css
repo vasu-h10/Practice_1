@@ -1,0 +1,50 @@
+const styles = {
+  app: {
+    maxWidth: "400px",
+    margin: "0 auto",
+    border: "1px solid #ddd",
+    fontFamily: "sans-serif",
+  },
+  header: {
+    padding: "10px",
+    borderBottom: "1px solid #ddd",
+  },
+  image: {
+    height: "250px",
+    background: "#eee",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    fontSize: "40px",
+  },
+  actions: {
+    padding: "10px",
+  },
+  likeBtn: {
+    fontSize: "18px",
+    border: "none",
+    background: "none",
+    cursor: "pointer",
+  },
+  comments: {
+    padding: "10px",
+    fontSize: "14px",
+  },
+  form: {
+    display: "flex",
+    borderTop: "1px solid #ddd",
+  },
+  input: {
+    flex: 1,
+    padding: "10px",
+    border: "none",
+    outline: "none",
+  },
+  postBtn: {
+    padding: "10px",
+    border: "none",
+    background: "none",
+    color: "blue",
+    fontWeight: "bold",
+  },
+};
