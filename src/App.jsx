@@ -1,9 +1,13 @@
-import React from 'react';
+import Post from "./components/Post";
+import "./App.css";
 
 function App() {
   return (
-    <div>
-      <h1>Hello, World!</h1>
+    <div className="app">
+      <h2 className="header">Instagram</h2>
+
+      <Post username="vasu_dev" />
+      <Post username="react_learner" />
     </div>
   );
 }
